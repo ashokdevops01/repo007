@@ -1,0 +1,10 @@
+node {
+   stage ('Cloning code')
+   {
+       git 'https://github.com/ashokdevops01/maven.git'
+   }
+   stage ('build')
+   {
+    sh 'mvn package -f web/pom.xml'
+   }
+} 

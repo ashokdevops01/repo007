@@ -5,6 +5,6 @@ node {
    }
    stage ('build')
    {
-    sh 'mvn package -f web/pom.xml'
+    sh 'mvn clean -f web/pom.xml'
    }
 } 

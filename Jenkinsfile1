@@ -1,7 +1,7 @@
 node {
    stage ('Cloning code')
    {
-       git 'https://github.com/ashokdevops01/maven.git'
+       git 'https://github.com/ashokdevops01/repo01.git'
    }
    stage ('build')
    {
